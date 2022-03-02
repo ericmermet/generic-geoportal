@@ -1,0 +1,126 @@
+html, body { 
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+.menu{
+   width:100%;
+   background: #142b47;
+   overflow:auto; 
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height:60px;
+}
+.menu li{
+    float:left; 
+}
+.menu ul li a{
+    background: #142b47;
+    text-decoration: none;
+    width: 130px;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    font-size:  18px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+.menu li a:hover{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 19px;
+}
+.search{
+    margin-top: 15px;
+    float: right;
+    margin-right: 100px;
+}
+#search-string {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#btnShowData {
+    /* float:right; */
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border:none;
+    font-size: 16px;
+}
+label[id=lb_cb_bdnyme] {
+    color:white;
+    font-family: sans-serif;
+}
+input[id=cb_bdnyme]:hover {
+    box-shadow:0px 0px 10px orange;
+}
+label[id=lb_cb_voies] {
+    color:white;
+    font-family: sans-serif;
+}
+input[id=cb_voies]:hover {
+    box-shadow:0px 0px 10px orange;
+}
+label[id=lb_cb_hydro] {
+    color:white;
+    font-family: sans-serif;
+}
+input[id=cb_hydro]:hover {
+    box-shadow:0px 0px 10px orange;
+}
+label[id=lb_cb_skeleton] {
+    color:white;
+    font-family: sans-serif;
+}
+input[id=cb_skeleton]:hover {
+    box-shadow:0px 0px 10px orange;
+}
+label[id=lb_cb_regex] {
+    color:white;
+    font-family: sans-serif;
+}
+input[id=cb_regex]:hover {
+    box-shadow:0px 0px 10px orange;
+}
+#mapid {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index:1;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
